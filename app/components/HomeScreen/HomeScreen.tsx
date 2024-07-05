@@ -22,13 +22,13 @@ export function HomeScreen({
               data-testid={testIds.HOME_PAGE.HEADER}
             >
               <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
-                USA
-                <br /> SUMMER
-                <br /> TOUR
+                Xavier
+                <br /> Nieto
+                <br /> Gonzalez
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
-                A NEW ALBUM BY{' '}
-                <span className="text-purple-500">TALI$A KIDD</span>
+                TIENDA OFICIAL DE {' '}
+                <span className="text-green-500">OTEIN</span>
               </h3>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
@@ -87,8 +87,8 @@ export function HomeScreen({
           </div>
           <div className="basis-1/2">
             <Image
-              src="https://static.wixstatic.com/media/503ea4_ed9a38760ae04aab86b47e82525fdcac~mv2.jpg/v1/fill/w_918,h_585,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/503ea4_ed9a38760ae04aab86b47e82525fdcac~mv2.jpg"
-              alt="TALI$A"
+              src="https://p16-tm-sg.tiktokmusic.me/img/tos-alisg-i-0000/2be0ecd40259485a88ae995d29d63927~c5_750x750.image"
+              alt="otein"
               className="w-full px-10 sm:px-0"
               width={1000}
               height={800}
@@ -97,8 +97,8 @@ export function HomeScreen({
         </div>
         <Image
           className="absolute inset-x-2/4 -translate-x-2/4 -translate-y-[20%] bottom-0 top-[20%] hidden sm:block"
-          src="https://static.wixstatic.com/media/c22c23_14f3a617cd684341b51dd1a3962c856e~mv2.png/v1/fill/w_202,h_245,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_14f3a617cd684341b51dd1a3962c856e~mv2.png"
-          alt="TALI$A"
+          src="https://scontent-mad1-1.cdninstagram.com/v/t51.2885-19/449525985_3611230765797055_586637818167123367_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=KC1YpC4qZkMQ7kNvgFRs5FF&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AYB3MSr4p7bpaswF8ucvXX9zHacVAa500Xsc3FVeHbQRgQ&oe=668CE765&_nc_sid=ee9879"
+          alt="otein-alien"
           width={202}
           height={245}
         />
