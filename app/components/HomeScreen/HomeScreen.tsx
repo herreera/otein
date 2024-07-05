@@ -27,7 +27,7 @@ export function HomeScreen({
                 <br /> Gonzalez
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
-                TIENDA OFICIAL DE 
+                TIENDA OFICIAL DE
                 <span className="text-green-500">OTEIN</span>
               </h3>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
