@@ -65,7 +65,7 @@ export const LoginModal = () => {
         email,
         window.location.origin
       );
-      setPending({ message: 'Password reset email sent', state: true });
+      setPending({ message: 'Revisa tu correo electrónico para obtener el enlace para cambiar la contraseña', state: true });
       return;
     }
 
@@ -124,21 +124,21 @@ export const LoginModal = () => {
 
   const stateTitle =
     state === State.RESET_PASSWORD
-      ? 'Reset Password'
+      ? 'Cambiar Contraseña'
       : state === State.LOGIN
-      ? 'Log In'
+      ? 'Iniciar Sesión'
       : state === State.EMAIL_VERIFICATION
-      ? 'Email Verification'
+      ? 'Verificación por Correo Electrónico'
       : 'Sign Up';
 
   const stateSubmit =
     state === State.RESET_PASSWORD
-      ? 'Reset'
+      ? 'Enviar enlace'
       : state === State.LOGIN
-      ? 'Log In'
+      ? 'Iniciar Sesión'
       : state === State.EMAIL_VERIFICATION
-      ? 'Submit'
-      : 'Sign Up';
+      ? 'Enviar'
+      : 'Registrarse';
 
   return (
     <React.Fragment>
@@ -186,7 +186,7 @@ export const LoginModal = () => {
                   {state === State.SIGNUP ? (
                     <div>
                       <div className="mb-2 block">
-                        <Label htmlFor="username" value="Username" />
+                        <Label htmlFor="username" value="Nombre de Usuario" />
                       </div>
                       <TextInput
                         id="username"
@@ -201,13 +201,13 @@ export const LoginModal = () => {
                   {state !== State.EMAIL_VERIFICATION ? (
                     <div>
                       <div className="mb-2 block">
-                        <Label htmlFor="email" value="Email" />
+                        <Label htmlFor="email" value="Correo Electrónico" />
                       </div>
                       <TextInput
                         id="email"
                         type="email"
                         color={emailInvalid ? 'failure' : 'primary'}
-                        helperText={emailInvalid ? 'Invalid email' : null}
+                        helperText={emailInvalid ? 'Correo electrónico inválido' : null}
                         value={email}
                         onChange={(e) => {
                           setEmail(e.target.value);
@@ -237,7 +237,7 @@ export const LoginModal = () => {
                   state !== State.EMAIL_VERIFICATION ? (
                     <div>
                       <div className="mb-2 block">
-                        <Label htmlFor="password" value="Password" />
+                        <Label htmlFor="password" value="Contraseña" />
                       </div>
                       <TextInput
                         id="password"
@@ -245,7 +245,7 @@ export const LoginModal = () => {
                         value={password}
                         required={true}
                         color={passwordInvalid ? 'failure' : 'primary'}
-                        helperText={passwordInvalid ? 'Invalid password' : null}
+                        helperText={passwordInvalid ? 'Contraseña inválida' : null}
                         onChange={(e) => {
                           setPassword(e.target.value);
                           setPasswordInvalid(false);
@@ -260,7 +260,7 @@ export const LoginModal = () => {
                           onClick={() => setState(State.RESET_PASSWORD)}
                           className="text-sm text-blue-700 hover:underline"
                         >
-                          Forgot password?
+                          ¿Has olvidad la contraseña?
                         </a>
                       </div>
                     </>
@@ -290,7 +290,7 @@ export const LoginModal = () => {
                   {state !== State.RESET_PASSWORD &&
                   state !== State.EMAIL_VERIFICATION ? (
                     <div className="text-sm font-medium text-gray-500">
-                      {state === State.LOGIN ? 'Not' : ''} registered?{' '}
+                      {state === State.LOGIN ? 'No' : ''} Registrado?{' '}
                       <a
                         onClick={() =>
                           setState(
@@ -299,7 +299,7 @@ export const LoginModal = () => {
                         }
                         className="text-blue-700 hover:underline"
                       >
-                        {state === State.LOGIN ? 'Sign up' : 'Log in'}
+                        {state === State.LOGIN ? 'Registrate' : 'Inicia sesión'}
                       </a>
                     </div>
                   ) : null}

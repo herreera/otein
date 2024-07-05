@@ -69,7 +69,7 @@ export const BackInStockFormModal = ({
             <div className="space-y-6 px-6 pb-4 sm:pb-6 lg:px-8 xl:pb-8">
               <div className="flex">
                 <h3 className="text-xl font-bold text-gray-900 text-center flex-1">
-                  Notify when available
+                  Notificarme cuando este disponible
                 </h3>
                 <button
                   onClick={closeModal}
@@ -94,12 +94,11 @@ export const BackInStockFormModal = ({
                 </button>
               </div>
               <h4>
-                Enter your email address and you’ll be notified when this
-                product is back in stock.
+                Introduce tu correo electrónico. Te enviaremos un correo en cuanto este disponible el producto.
               </h4>
               <div>
                 <div className="mb-2 block">
-                  <Label htmlFor="email" value="Email" />
+                  <Label htmlFor="email" value="Correo Electrónico" />
                 </div>
                 <TextInput
                   id="email"
@@ -114,7 +113,7 @@ export const BackInStockFormModal = ({
               </div>
               <div className="w-full">
                 <Button type="submit" disabled={loading}>
-                  {loading ? <Spinner aria-label="Loading" /> : 'Submit'}
+                  {loading ? <Spinner aria-label="Loading" /> : 'Enviar'}
                 </Button>
               </div>
               <p>{error}</p>

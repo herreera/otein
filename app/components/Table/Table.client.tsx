@@ -206,9 +206,9 @@ export function TicketsTable({
         e.details.applicationError.data.details.details.error_key ===
         'NO_PAYMENT_METHOD_CONFIGURED'
       ) {
-        setError('No payment method configured');
+        setError('No tienes un metodo de pago configurado');
       } else {
-        setError('Something went wrong');
+        setError('Uupps! Algo salio mal');
       }
       throw e;
     }
@@ -223,7 +223,7 @@ export function TicketsTable({
             key={ticket._id}
           >
             <div className="basis-1/2 sm:border-r-2">
-              <span className="block text-12">Ticket type</span>
+              <span className="block text-12">Tipo de entrada</span>
               <span className="text-base">{ticket.name}</span>
               {ticket.salePeriod &&
                 new Date(ticket.salePeriod.endDate!) > new Date() &&
@@ -296,7 +296,7 @@ export function TicketsTable({
                 >
                   {ticket.canPurchase && (
                     <>
-                      <span className="block text-12 mb-1">Quantity</span>
+                      <span className="block text-12 mb-1">Cantidad</span>
 
                       <Counter
                         onChange={setTickets}
@@ -360,7 +360,7 @@ export function TicketsTable({
                     >
                       {ticket.limitPerCheckout! > 0 ? (
                         <>
-                          <span className="block text-12 mb-1">Quantity</span>
+                          <span className="block text-12 mb-1">Cantidad</span>
                           <Counter
                             onChange={setTickets}
                             ticketId={ticket._id!}
@@ -392,8 +392,8 @@ export function TicketsTable({
                         setExpendPricingOptionsForTicket(ticket._id!)
                       }
                     >
-                      View {expendPricingOptions[ticket._id!] ? 'less' : 'more'}{' '}
-                      price options
+                      Ver {expendPricingOptions[ticket._id!] ? 'less' : 'more'}{' '}
+                      opciones de precio
                     </button>
                   </div>
                 </div>
@@ -421,7 +421,7 @@ export function TicketsTable({
         ) : null}
         {serviceFee ? (
           <div className="flex mt-2" key="fee">
-            <span>Service fee</span>
+            <span>Gastos de servicio</span>
             <span className="text-right ml-auto">
               {formatCurrency(
                 serviceFee.toString(),
@@ -456,7 +456,7 @@ export function TicketsTable({
               }
               className="btn-main w-full disabled:text-gray-500 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:border-white"
             >
-              Checkout
+              Pasar por Caja
             </button>
           </div>
         </div>

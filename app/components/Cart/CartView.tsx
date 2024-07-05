@@ -129,7 +129,7 @@ export const CartView = ({ layout = 'mini' }: { layout?: 'full' | 'mini' }) => {
                 onClick={goToCheckout}
                 disabled={redirecting}
               >
-                Proceed to Checkout
+                Pasar por Caja
               </button>
             </div>
           </div>
@@ -153,10 +153,10 @@ export const CartView = ({ layout = 'mini' }: { layout?: 'full' | 'mini' }) => {
             </svg>
           </span>
           <h2 className="pt-6 text-2xl font-bold tracking-wide text-center">
-            Your cart is empty
+            Carrito Vacío
           </h2>
           <p className="text-accent-3 px-10 text-center pt-2">
-            Add products to your cart in <a href="/shop">here</a>
+            Añade productos a tu carrito <a href="/shop">aquí</a>
           </p>
         </div>
       )}

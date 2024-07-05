@@ -16,7 +16,7 @@ export const Events = ({ events }: { events: wixEvents.V3Event[] }) => {
       data-testid={testIds.TICKET_LIST.CONTAINER}
     >
       <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left">
-        SHOWS
+        CONCIERTOS
       </h1>
       <div className="py-10">
         {events!.map((event) => (
@@ -122,7 +122,7 @@ export const Events = ({ events }: { events: wixEvents.V3Event[] }) => {
               className="btn-main my-2 sm:my-10 rounded-2xl w-full text-center sm:w-auto h-fit min-w-fit"
               href={`/events/${event.slug}`}
             >
-              Buy Tickets
+              Comprar Entradas
             </a>
           </div>
         ))}

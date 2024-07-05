@@ -29,8 +29,8 @@
     @apply text-white;
     @apply text-sm;
     @apply font-medium;
-    @apply bg-purple-600;
-    @apply hover:bg-purple-800;
+    @apply bg-green-600;
+    @apply hover:bg-green-800;
     @apply focus:outline-none;
     @apply focus:ring-4;
     @apply focus:ring-gray-300;

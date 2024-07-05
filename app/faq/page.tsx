@@ -6,45 +6,44 @@ export default function FAQPage() {
       </div>
       <div className="py-10 max-w-4xl mx-auto leading-7">
         <h2 className="text-3xl py-5">
-          DO YOU PROVIDE INTERNATIONAL DELIVERY?
+          LOREM
         </h2>
         <p>
-          I’m a paragraph. Use this area to describe something. You can change
-          the text so people can learn more. It’s a great space to share
-          important information.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
         </p>
-        <h2 className="text-3xl py-5 mt-10">HOW DO I TRACK MY ORDER?</h2>
+        <h2 className="text-3xl py-5 mt-10">LOREM</h2>
         <p>
-          I am a paragraph. Add your own text and edit me. I’m a great place for
-          you add important information and tell your users more. Well written
-          text shows people that you are credible and reliable. Try to keep the
-          text simple and easy to read.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
         </p>
         <h2 className="text-3xl py-5 mt-10">HOW DO I RETURN AN ITEM?</h2>
         <p>
-          I’m a paragraph. Use this area to describe something. You can change
-          the text so people can learn more. It’s a great space to share
-          important information.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
         </p>
         <h2 className="text-3xl py-5 mt-10">
-          HOW CAN I CONTACT YOUR COURIERS?
+          LOREM
         </h2>
         <p>
-          I am a paragraph. Use this area to describe something. You can change
-          the text so people can learn more. It’s a great space to share
-          important information.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
         </p>
-        <h2 className="text-3xl py-5 mt-10">WHAT IS YOUR RETURNS POLICY?</h2>
+        <h2 className="text-3xl py-5 mt-10">LOREM</h2>
         <p>
-          I am a paragraph. Use this area to describe something. You can change
-          the text so people can learn more. It’s a great space to share
-          important information.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
         </p>
-        <h2 className="text-3xl py-5 mt-10">WHAT ARE YOUR DELIVERY OPTIONS?</h2>
+        <h2 className="text-3xl py-5 mt-10">LOREM</h2>
         <p>
-          I am a paragraph. Use this area to describe something. You can change
-          the text so people can learn more. It is a great space to share
-          important information.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
         </p>
       </div>
     </div>

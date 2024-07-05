@@ -157,7 +157,7 @@ export function Price({
         <span className="block text-12">
           {ticket.pricing?.pricingType === ticketDefinitions.Type.DONATION
             ? donationText
-            : 'Price'}
+            : 'Precio'}
         </span>
       )}
       <span className="text-base">{price}</span>
@@ -183,7 +183,7 @@ export function Price({
           <>
             <span className="text-12 block mt-1 sm:text-xs text-black">
               +{fee ? formatCurrency(fee, ticket.price?.currency) + ' ' : ''}
-              Service fee
+              Gastos de servicio
             </span>
           </>
         )}

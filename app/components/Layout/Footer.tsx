@@ -10,19 +10,19 @@ const Footer = () => (
     <ScrollIntoView hashName="#contact" />
     <div className="bg-black text-white text-center py-6">
       <h2 className="text-2xl sm:text-4xl font-bold">
-        FOR BOOKING REQUIREMENTS
+        CONTRATACIONES 
       </h2>
       <p className="mt-10 text-xs sm:text-base">
-        INFO@MYSITE.COM | PHONE: 123-456-7890
+      contratacionesotein@gmail.com
       </p>
     </div>
     <div className="mx-auto flex flex-col-reverse items-center sm:flex-row gap-1 sm:gap-16 pt-3 sm:pt-11 pb-4 sm:pb-20 px-6 sm:px-14 text-12 sm:text-xs">
       <p className="font-default mb-10 flex-1">
-        © 2023 BY TALI$A KIDD. CREATED ON NextJS.
+        © 2024 Por <a href="https://herreradev.xyz" className='text-green-500 hover:text-green-800'>Samuel Herrera</a>.
       </p>
-      <a href="/terms">TERMS & CONDITIONS</a>
-      <a href="/shipping">SHIPPING & RETURNS</a>
-      <a href="/faq">FAQ&apos;S</a>
+      <a href="/terms">TERMINOS & CONDICIONES</a>
+      <a href="/shipping">ENVIO & DEVOLUCIONES</a>
+      <a href="/faq">PREGUNTAS FRECUENTES</a>
     </div>
   </footer>
 );
