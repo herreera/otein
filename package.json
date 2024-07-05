@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "yarn dev",
+    "dev": "next dev",
     "debug": "NODE_OPTIONS='--inspect' next dev -p 3005",
     "test": "yarn e2e",
     "e2e": "yarn playwright test",
-    "build": "yarn build",
-    "start": "yarn start",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint --fix"
   },
   "dependencies": {
