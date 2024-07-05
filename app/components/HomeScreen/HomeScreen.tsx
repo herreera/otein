@@ -109,17 +109,7 @@ export function HomeScreen({
         </div>
       ) : (
         <div className="text-3xl w-full text-center p-9 box-border max-w-4xl mx-auto">
-          No events found. Click{' '}
-          <a
-            href="https://manage.wix.com/account/site-selector?actionUrl=https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fevents%3FreferralInfo%3DHeadless"
-            target="_blank"
-            rel="noreferrer"
-            className="text-purple-500"
-          >
-            here
-          </a>{' '}
-          to go to the business dashboard to add events. Once added, they will
-          appear here.
+          Otein no tiene conciertos previstos en este momento
         </div>
       )}
       {productsForCategories.length ? (
@@ -129,19 +119,17 @@ export function HomeScreen({
               Merch
             </h1>
             <p className="text-lg my-10 text-black">
-              I am a paragraph. I’m a great space to write about what makes the
-              products special and explain how customers can benefit from these
-              items.
+              Productos de alta calidad. Camisetas, Pantalones, Sudaderas, Accesorios y mucho mas
             </p>
             <a
               href="/shop"
               className="btn-main rounded-2xl text-base px-8 py-2.5"
             >
-              Get Merch
+              Haz tu pedido
             </a>
             {productsForCategories[1]?.product?.media?.mainMedia ? (
               <div className="mt-10 sm:mt-[300px]">
-                <a href="/shop" className="h-auto max-w-full inline-block">
+                <a href="/shop" className="h-auto max-w-full inline-block rounded-md">
                   <WixMediaImage
                     media={
                       productsForCategories[1]?.product!.media!.mainMedia!
@@ -208,17 +196,7 @@ export function HomeScreen({
         </div>
       ) : (
         <div className="text-3xl w-full text-center p-9 box-border max-w-4xl mx-auto">
-          No categories found. Click{' '}
-          <a
-            href="https://manage.wix.com/account/site-selector?actionUrl=+https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fstore%2Fcategories%2Flist%3FreferralInfo%3DHeadless"
-            target="_blank"
-            rel="noreferrer"
-            className="text-purple-500"
-          >
-            here
-          </a>{' '}
-          to go to the business dashboard to create event categories. Once
-          added, they will appear here.
+          No hay categorías disponibles en estos momentos
         </div>
       )}
     </div>
